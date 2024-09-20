@@ -1,0 +1,17 @@
+:root{
+    --background-color:linear-gradient(0.25turn,#141c8a, #BDE8CA, #1ce4d3);
+    --navbar-bg:linear-gradient(0.25turn, #414be0, #BDE8CA, #73ece2);
+    --card-bg:linear-gradient(0.1turn,#ff79ff, #BDE8CA, #03f7ff);
+    --text-color:#000000;
+    --toggle:linear-gradient(0.25turn,#141c8a, #BDE8CA, #1ce4d3);
+    --toggle-bg:rgb(189, 162, 162);
+}
+
+[data-theme="dark"]{
+    --background-color: linear-gradient(0.25turn,#2E0249, #570A57, #A91079);
+    --navbar-bg:linear-gradient(0.25turn,#4d037a, #570A57, #ca399c);
+    --card-bg:linear-gradient(0.25turn,#2E0249, #570A57, #A91079);
+    --text-color:#5BBCFF;
+    --toggle:linear-gradient(0.25turn,#2E0249, #570A57, #A91079);
+    --toggle-bg:#8a8282;
+}

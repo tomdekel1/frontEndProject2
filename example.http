@@ -1,0 +1,26 @@
+@local=https://monkfish-app-z9uza.ondigitalocean.app/bcard2
+
+### register
+
+POST {{local}}/users
+Content-Type: application/json
+
+{
+    "name": "tom",
+    "email": "dekeltom0@gmail.com",
+    "password":"Tom123@"
+}
+
+### Authenticate
+
+POST {{local}}/users/login
+Content-type: application/json
+
+{
+    "email":"to@gmail.com",
+    "password":"Tom123@"
+}
+
+### Authorize
+GET {{local}}/users/65424ae9a8d1eae12d31e360
+x-auth-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ5YWI2Y2Y5ZDNlYTU4ZjZmZGJlOWUiLCJpc0J1c2luZXNzIjpmYWxzZSwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTcyNTU0MTU1MX0.5TOJlVendSR446MAzLa6oA8yHxBrsiecGD8jQKJdLZ4
